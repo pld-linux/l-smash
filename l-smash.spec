@@ -1,12 +1,13 @@
 Summary:	Loyal to Spec of MPEG4, and Ad-hock Simple Hackwork library
 Summary(pl.UTF-8):	Biblioteka L-SMASH (Loyal to Spec of MPEG4, and Ad-hock Simple Hackwork)
 Name:		l-smash
-Version:	2.3.0
+Version:	2.14.5
 Release:	1
 License:	ISC
 Group:		Libraries
+#Source0Download: https://github.com/l-smash/l-smash/releases
 Source0:	https://github.com/l-smash/l-smash/archive/v%{version}/%{name}-%{version}.tar.gz
-# Source0-md5:	72e68a32e6a671afebbfbbab3b5dd47c
+# Source0-md5:	5915de411970abafbad8003599196fee
 URL:		http://l-smash.github.io/l-smash/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
